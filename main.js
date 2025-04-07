@@ -1,7 +1,9 @@
 const botoes = document.querySelectorAll(".botao");
+//cria botões e busca pela classe botão do html
 const textos = document.querySelectorAll(".aba-conteudo");
-
+//cria textos e busca pela classe aba conteudo do html
 for (let i = 0; i < botoes.length; i++) {
+    //pela variavel i menor que a lita de botões passe para o proximo botão
     botoes[i].onclick = function () {
 
         for (let j = 0; j < botoes.length; j++) {
